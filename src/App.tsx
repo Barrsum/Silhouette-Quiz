@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Trophy, Github, Linkedin, Hexagon, ArrowRight, XCircle, RotateCcw, Check, X, Circle, CircleDot } from 'lucide-react';
 import { Question, getRandomSession } from './data/questions';
 
-const GITHUB_URL = "https://github.com/Barrsum";
+const GITHUB_URL = "https://github.com/Barrsum/Silhouette-Quiz";
 const LINKEDIN_URL = "https://www.linkedin.com/in/ram-bapat-barrsum-diamos";
 
 type GameStage = 'start' | 'question' | 'results';
